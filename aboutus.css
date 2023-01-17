@@ -3,13 +3,13 @@
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
 }
 
 .about {
     width: 100%;
     padding: 80px 0px;
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
 }
 
 .about-text{
@@ -70,4 +70,8 @@ button:hover {
 
 #h1Id{
     color: black;
+}
+
+.footer-section{
+    padding-top: 50px;
 }

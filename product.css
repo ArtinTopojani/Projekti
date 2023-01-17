@@ -25,11 +25,7 @@
 }
 
 @media (max-width: 2200px){
-    .single-product{
-        --grid-gap: 5rem;
-        grid-template-areas: 
-        'one two';
-    }
+    
 }
 
 .product-info{
@@ -48,7 +44,7 @@ h1{
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.product-btn{
+button{
     border-radius: 50px;
     size: large;
     border: 0;
@@ -58,7 +54,7 @@ p{
     color: #fefefe;
     font-size: 18px;
 }
-.product-btn:hover{
+button:hover{
     background-color: #3d3d3d;
 }
 .uil-star{
@@ -71,6 +67,34 @@ p{
     gap: 20px;
 }
 
+#slider {
+    text-align: center;
+ }
+ 
+ #prevBtn, #nextBtn {
+   margin: 0 10px;
+ }
 
-
-
+ 
+ @media (max-width: 2200px){
+    .single-product{
+        --grid-gap: 5rem;
+        grid-template-areas: 
+        'one two';
+    }
+}
+    
+    
+    @media (max-width: 900px) {
+        .single-product > div:first-child{
+            order: 2;
+          }
+          .single-product > div:last-child{
+            order: 1;
+          }
+        .single-product{
+            grid-gap: 5rem;
+            grid-template-areas: 
+            'two' 'one';
+        }
+    }
