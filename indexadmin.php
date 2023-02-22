@@ -1,3 +1,5 @@
+<?php include "dbConnection.php"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,14 +23,19 @@
         </div>
 
         <div class="hamburger">
+            
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
         </div>
         <div class="nav-bar">
             <ul>
+            
+            <li>
+                    <a href="dashboard.php">Dashboard</a>
+                </li>
                 <li>
-                    <a href="" class="active">Home</a>
+                    <a href="index.php" class="active">Home</a>
                 </li>
                 <li>
                     <a href="aboutus.html">About Us</a>
@@ -37,7 +44,7 @@
                     <a href="#footer">Contact</a>
                 </li>
                 <li>
-                    <a href="login.html">Log in</a>
+                    <a href="login.php">Log in</a>
                 </li>
             </ul>
         </div>
@@ -68,7 +75,7 @@
 
     <section class="offers">
         <!-- =================================== -->
-       <a href="product.html" class="produkti-link"> <div class="product grid">
+       <a href="product.php" class="produkti-link"> <div class="product grid">
             <img src="/image/p-2.jpg" alt="p1">
             <p>  Ore e Menqur<p>
             <p> <b> 199.50 € </b></p>
@@ -212,7 +219,7 @@
             <ul>
                 <a href="index.html"><li>Home</li></a>
                 <a href="aboutus.html"><li>About Us</li></a>
-                <a href="login.html"><li>Log in</li></a>
+                <a href="login.php"><li>Log in</li></a>
                 
             </ul>
         </div>

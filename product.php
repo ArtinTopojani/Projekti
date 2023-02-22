@@ -1,3 +1,5 @@
+<?php include "dbConnection.php"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,7 +37,7 @@
                     <a href="#footer">Contact</a>
                 </li>
                 <li>
-                    <a href="login.html">Log in</a>
+                    <a href="login.php">Log in</a>
                 </li>
             </ul>
         </div>
@@ -44,7 +46,7 @@
     
 <section class="single-product grid">
     <div id="slider">
-        <img src="/image/product-img.jpg" id="image">
+        <img src="../image/product-img.jpg" id="image">
         <button id="prevBtn"><i class="uil uil-arrow-left"></i></button>
         <button id="nextBtn"><i class="uil uil-arrow-right"></i></button>
     </div>
@@ -72,9 +74,9 @@
     </div>
 
     <div class="product-button">
-        <button class="product-btn">
+        <a href="payment.php"><button class="product-btn">
             Add to cart
-        </button>
+        </button></a>
     </div>
 
     <div>
@@ -109,9 +111,9 @@
     <div class="footer-menu">
         <h3>Quick Links</h3>
         <ul>
-            <a href="index.html"><li>Home</li></a>
+            <a href="index.php"><li>Home</li></a>
             <a href="aboutus.html"><li>About Us</li></a>
-            <a href="login.html"><li>Log in</li></a>
+            <a href="login.php"><li>Log in</li></a>
             
         </ul>
     </div>
